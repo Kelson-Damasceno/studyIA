@@ -1,4 +1,5 @@
-# StudyVR / IA (chat bot)
+<h1 align="center">StudyVR / IA (chat bot)</h1>
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1efa7ffe-4bad-4f54-aa68-0381a062b13f" alt="logo_study" width="250"/>
 </p>
