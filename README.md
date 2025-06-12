@@ -19,18 +19,23 @@ Apresentação do Projeto:
 1. Clone o repositório:
 ```bash
 git clone https://github.com/kelson-damasceno/studyIA.git
+```
+2. Acesse a pasta backend:
+```bash
 cd backend
 ```
-2. Instale as dependeências:
+3. Instale as dependeências:
 ```bash
 npm install
 ```
-3. Inicie o Servidor:
+4. Inicie o Servidor:
 ```bash
 node index.js
 ```
-4. Abra o arquivo "index.html" que está em "/html" em seu navegador (aconselho usar a extensão Live Server no VS para facilitar)
-5. Navegue pelo site e interaja com a assistente virtual Duda no canto inferior direito.
+5. Abra o arquivo "index.html" que está em "/html" em seu navegador (aconselho usar a extensão Live Server no VS para facilitar)
+
+6. Navegue pelo site e interaja com a assistente virtual Duda no canto inferior direito.
+
 
 ## Tecnologias Utilizadas
 -Frontend: HTML, CSS, JavaScript
@@ -38,6 +43,7 @@ node index.js
 -Backend: Node.js, Express
 
 -Banco de Dados: SQLite
+
 
 ## Funcionalidades
 -Interface com chatbot interativo.
@@ -49,6 +55,12 @@ node index.js
 -Integração com HTML/CSS/JS para funcionamento direto no navegador.
 
 -Design moderno com ilustração personalizada da Duda.
+
+
+## Autores
+Kelson Damasceno
+
+Diógenes Ferreira
 
 
  
