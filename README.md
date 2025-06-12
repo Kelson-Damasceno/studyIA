@@ -1,5 +1,5 @@
 # StudyVR / IA (chat bot)
-![image](https://github.com/user-attachments/assets/283c8d53-7d17-44e0-8300-83a44c7fe8cf)
+![logo_study](https://github.com/user-attachments/assets/1efa7ffe-4bad-4f54-aa68-0381a062b13f)
 
 ## Apresentação
 Apresentação do Projeto:
@@ -8,6 +8,9 @@ Apresentação do Projeto:
 ## Descrição
  StudyVR é uma empresa educacional que utiliza Realidade Virtual (VR) para transformar a imersividade do ambiente de aprendizagem, melhorando o desempenho de alunos. 
  Neste projeto, desenvolvemos uma assistente virtual chamada Duda, capaz de responder as dúvidas sobre o funcionamento do sistema utilizando uma base de conhecimento e processamento de linguagem natural.
+
+## Requisitos
+-Node.js
 
 ## Como executar
 1.Clone o repositório:
@@ -21,6 +24,11 @@ node index.js
 ```
 3. Abra o arquivo index.html em seu navegador (aconselho usar a extensão Live Server)
 4. Navegue pelo site e interaja com a assistente virtual Duda no canto inferior direito.
+
+## Tecnologias
+-Frontend: HTML, CSS, JavaScript
+-Backend: Node.js, Express
+-Banco de Dados: SQLite
 
 ## Funcionalidades
 -Interface com chatbot interativo.
