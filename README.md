@@ -1,5 +1,7 @@
 # StudyVR / IA (chat bot)
-![logo_study](https://github.com/user-attachments/assets/1efa7ffe-4bad-4f54-aa68-0381a062b13f)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1efa7ffe-4bad-4f54-aa68-0381a062b13f" alt="logo_study" width="250"/>
+</p>
 
 ## Apresentação
 Apresentação do Projeto:
@@ -18,23 +20,33 @@ Apresentação do Projeto:
 git clone https://github.com/kelson-damasceno/studyIA.git
 cd backend
 ```
-2.Inicie o Servidor:
+2.Instale as dependeências:
+```bash
+npm install
+```
+3.Inicie o Servidor:
 ```bash
 node index.js
 ```
-3. Abra o arquivo index.html em seu navegador (aconselho usar a extensão Live Server)
-4. Navegue pelo site e interaja com a assistente virtual Duda no canto inferior direito.
+4. Abra o arquivo "index.html" que está em "/html" em seu navegador (aconselho usar a extensão Live Server no VS para facilitar)
+5. Navegue pelo site e interaja com a assistente virtual Duda no canto inferior direito.
 
-## Tecnologias
+## Tecnologias Utilizadas
 -Frontend: HTML, CSS, JavaScript
+
 -Backend: Node.js, Express
+
 -Banco de Dados: SQLite
 
 ## Funcionalidades
 -Interface com chatbot interativo.
+
 -Assistente virtual "Duda" que responde com base em palavras-chave.
+
 -Normalização textual para reconhecer abreviações e variações linguísticas.
+
 -Integração com HTML/CSS/JS para funcionamento direto no navegador.
+
 -Design moderno com ilustração personalizada da Duda.
 
 
