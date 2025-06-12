@@ -1,4 +1,5 @@
 # StudyVR / IA (chat bot)
+![image](https://github.com/user-attachments/assets/283c8d53-7d17-44e0-8300-83a44c7fe8cf)
 
 ## Apresentação
 Apresentação do Projeto:
@@ -12,9 +13,14 @@ Apresentação do Projeto:
 1.Clone o repositório:
 ```bash
 git clone https://github.com/kelson-damasceno/studyIA.git
+cd backend
 ```
-2. Abra o arquivo index.html em seu navegador (aconselho usar a extensão Live Server)
-3. Navegue pelo site e interaja com a assistente virtual Duda no canto inferior direito.
+2.Inicie o Servidor:
+```bash
+node index.js
+```
+3. Abra o arquivo index.html em seu navegador (aconselho usar a extensão Live Server)
+4. Navegue pelo site e interaja com a assistente virtual Duda no canto inferior direito.
 
 ## Funcionalidades
 -Interface com chatbot interativo.
