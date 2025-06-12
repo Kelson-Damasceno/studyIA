@@ -15,16 +15,16 @@ Apresentação do Projeto:
 -Node.js
 
 ## Como executar
-1.Clone o repositório:
+1. Clone o repositório:
 ```bash
 git clone https://github.com/kelson-damasceno/studyIA.git
 cd backend
 ```
-2.Instale as dependeências:
+2. Instale as dependeências:
 ```bash
 npm install
 ```
-3.Inicie o Servidor:
+3. Inicie o Servidor:
 ```bash
 node index.js
 ```
