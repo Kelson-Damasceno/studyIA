@@ -4,16 +4,20 @@
   <img src="https://github.com/user-attachments/assets/1efa7ffe-4bad-4f54-aa68-0381a062b13f" alt="logo_study" width="250"/>
 </p>
 
+
 ## Apresentação
 Apresentação do Projeto no YouTube:
 - https://youtu.be/DiW1_27RSqo?feature=shared
 
+
 ## Descrição
  StudyVR é uma empresa educacional que utiliza Realidade Virtual (VR) para transformar a imersividade do ambiente de aprendizagem, melhorando o desempenho de alunos. 
- Neste projeto, desenvolvemos uma assistente virtual chamada Duda, capaz de responder as dúvidas sobre o funcionamento do sistema utilizando uma base de conhecimento e processamento de linguagem natural.
+ Neste projeto, desenvolvemos uma assistente virtual chamada Duda, capaz de responder as dúvidas dos usuários sobre o funcionamento do sistema e contratos com a empresa, utilizando uma base de conhecimento e processamento de linguagem natural.
+
 
 ## Requisitos
 -Node.js (este é o link para dowload: https://nodejs.org/)
+
 
 ## Como executar
 1. Clone o repositório:
