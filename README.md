@@ -6,7 +6,9 @@
 
 ## Como executar
 1.Clone o repositório:
+```bash
 git clone https://github.com/kelson-damasceno/studyIA.git
+```
 2. Abra o arquivo index.html em seu navegador (aconselho usar a extensão Live Server)
 3. Navegue pelo site e interaja com a assistente virtual Duda no canto inferior direito.
 
