@@ -5,7 +5,7 @@
 </p>
 
 ## Apresentação
-Apresentação do Projeto:
+Apresentação do Projeto no YouTube:
 - https://youtu.be/DiW1_27RSqo?feature=shared
 
 ## Descrição
@@ -13,7 +13,7 @@ Apresentação do Projeto:
  Neste projeto, desenvolvemos uma assistente virtual chamada Duda, capaz de responder as dúvidas sobre o funcionamento do sistema utilizando uma base de conhecimento e processamento de linguagem natural.
 
 ## Requisitos
--Node.js
+-Node.js (este é o link para dowload: https://nodejs.org/)
 
 ## Como executar
 1. Clone o repositório:
