@@ -1,0 +1,233 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #56aeff;
+    padding: 0 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    width: 100%;
+    height: 147px;        
+    justify-content: space-between;
+}
+
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;   
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.logo img { 
+    width: auto;      
+    height: 150px;
+    object-fit: contain; 
+    margin-left: 200px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.search-bar input {
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+}
+
+.search-bar button {
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: -250px; 
+    width: 250px;
+    height: 100%;
+    background-color: #56aeff;
+    color: white;
+    transition: left 0.3s ease; 
+    z-index: 100;
+    padding-top: 60px;
+}
+
+.side-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-menu ul li {
+    padding: 15px;
+    text-align: center;
+}
+
+.side-menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.side-menu ul li a:hover {
+    background-color: #4093d6;
+}
+
+
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+.side-menu.active {
+    left: 0; 
+}
+
+
+body.active-menu {
+    overflow: hidden; 
+    position: relative;
+}
+
+body.active-menu::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 99;
+}
+
+.contato {
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contato h1 {
+    font-size: 2.5em;
+    color: #56aeff;
+    margin-bottom: 20px;
+}
+
+.contato p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.contato h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contato ul {
+    list-style: none;
+    text-align: left;
+}
+
+.contato ul li {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.contato ul li strong {
+    color: #56aeff;
+}
+
+.contato ul li ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.contato ul li ul li {
+    font-size: 1em;
+}
+
+.contato ul li a {
+    color: #56aeff;
+    text-decoration: none;
+}
+
+.contato ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #808080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-left,
+.footer-right {
+    flex: 1;
+}
+
+.logo-container img {
+    width: 150px;
+    height: auto;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    color: #56aeff;
+}

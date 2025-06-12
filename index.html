@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyVR</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="icon" href="img/icone_study.ico" type="image/x-icon">
+    <script src="dudaia.js"></script>
+
+
+</head>
+<body>
+  
+    <header>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <div class="logo">
+            <img src="img/logo_study.jpeg" alt="StudyVR Logo">
+
+        </div>
+
+       
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar...">
+            <button type="submit">🔍</button>
+        </div>
+    </header>
+
+       
+        <nav id="side-menu" class="side-menu">
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="proj.html">Portfólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+
+    <section class="welcome-section">
+        <h1>Bem-vindo ao StudyVR!</h1>
+        <p>Transforme a experiência de aprendizagem na sua escola com a realidade virtual. O StudyVR oferece atividades imersivas para tornar o ensino mais dinâmico e divertido.</p>
+        <a href="sobre.html" class="cta-button">Sobre Nós</a>
+    </section>
+
+    <section class="hero-carousel">
+        <div class="hero-slide" style="background-image: url('img/dudaApresentacaoo.png');">
+        <div class="hero-content">
+            <h1>Agora com Inteligência Artificial</h1>
+                <p>Conheça a Duda, sua assistente virtual! Tire dúvidas, explore o StudyVR e descubra o futuro da educação com realidade virtual.</p>
+                <a href="#" class="hero-button" onclick="toggleChat()">Fale com a Duda</a>
+        </div>
+        </div>
+    </section>
+
+
+    <section id="como-funciona">
+        <h2>Como Funciona o StudyVR</h2>
+        <p>O StudyVR é uma plataforma que utiliza a Realidade Virtual para transformar a forma como os alunos aprendem. Através de atividades e experiências imersivas, os estudantes podem explorar diferentes disciplinas de uma maneira divertida e interativa.</p>
+
+        <div class="passos">
+            <div class="passo">
+                <h3>1. Escolha da Matéria</h3>
+                <p>Os professores podem selecionar uma variedade de disciplinas, como matemática, ciências, história, e muito mais, para tornar o aprendizado mais interessante e dinâmico.</p>
+                <img src="img/historia.jpeg">
+            </div>
+
+            <div class="passo">
+                <h3>2. Equipamentos VR</h3>
+                <p>Fornecemos os dispositivos de Realidade Virtual, como óculos VR e sensores, que permitem aos alunos interagir diretamente com o conteúdo de forma imersiva.</p>
+                <img src="img/oculos_study.jpeg">
+            </div>
+
+            <div class="passo">
+                <h3>3. Atividades Interativas</h3>
+                <p>Os alunos participam de atividades interativas em VR, como simulações de laboratório, viagens no tempo, exploração de sistemas solares, e mais, de acordo com a matéria escolhida.</p>
+                <img src="img/sistemasolar.webp">
+            </div>
+
+            <div class="passo">
+                <h3>4. Acompanhamento e Resultados</h3>
+                <p>Professores podem monitorar o progresso dos alunos em tempo real e avaliar o desempenho com base nas interações e decisões tomadas durante as atividades em VR.</p>
+                <img src="img/professora.jpeg">
+            </div>
+        </div>
+        <div class="beneficios">
+        <h3>Benefícios do StudyVR</h3>
+        <ul>
+            <li><strong>Aprendizado Imersivo:</strong> Experiências que tornam o aprendizado mais interessante e envolvente.</li>
+            <li><strong>Maior Engajamento:</strong> Os alunos se envolvem mais com o conteúdo devido à interatividade.</li>
+            <li><strong>Desenvolvimento de Habilidades:</strong> Ajudamos no desenvolvimento de habilidades práticas e cognitivas, como resolução de problemas e pensamento crítico.</li>
+            <li><strong>Acessibilidade:</strong> Oferecemos uma nova forma de aprender para alunos com diferentes estilos de aprendizagem.</li>
+            <li><strong>Engajamento Global:</strong> Estudantes podem explorar conteúdos de qualquer lugar do mundo e aprender de forma única.</li>
+        </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <p>&copy; 2024 StudyVR. Todos os direitos reservados.</p>
+            </div>
+            <div class="logo-container">
+                <img src="img/logo_cinza.jpeg" alt="StudyVR Logo">
+            </div>
+            <div class="footer-right">
+                <div class="social-links">
+                    <a href="#" target="_blank">Facebook</a>
+                    <a href="#" target="_blank">Instagram</a>
+                    <a href="#" target="_blank">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        function toggleChat() {
+            const chat = document.getElementById("chat-container");
+            if (chat) {
+                chat.classList.toggle("active");
+            } else {
+                console.error("Elemento 'chat-container' não encontrado.");
+            }
+        }
+        </script>
+    
+
+<div class="chat-button" onclick="toggleChat()">
+    <img src="img/dudaIA.png" alt="Fale com a Duda" class="duda-avatar">
+    <span>Fale com a Duda</span>
+</div>
+
+
+<div id="chat-container" class="chat-container">
+    <div class="chat-header">
+        <span>DudaVR</span>
+        <button class="chat-close" onclick="toggleChat()">×</button>
+    </div>
+    <div class="chat-messages" id="chat-messages">
+        <div class="message bot">Olá! Eu sou a Duda, sua assistente virtual. Como posso ajudar?</div>
+    </div>
+    <div class="chat-input-area">
+        <input type="text" id="user-input" placeholder="Digite sua mensagem..." onkeypress="handleKeyPress(event)">
+        <button type="button" onclick="sendMessage()">Enviar</button>
+
+    </div>
+</div>
+
+
+    
+</body>
+    <script src="index.js"></script>
+
+</html>
