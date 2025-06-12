@@ -60,6 +60,17 @@ node index.js
 
 -Design moderno com ilustração personalizada da Duda.
 
+## MER 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0024ecb1-84af-4e10-bea2-a64a6e48e2d5" alt="mer_conceitual" width="300"/>
+</p>
+  
+
+## DER
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/58254d46-11ab-480d-b580-33dbcb5624d9" alt="der_logico" width="300"/>
+</p>
+
 
 ## Autores
 Kelson Damasceno
