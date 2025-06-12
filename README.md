@@ -22,7 +22,7 @@ Apresentação do Projeto no YouTube:
 ## Como executar
 1. Clone o repositório:
 ```bash
-git clone https://github.com/kelson-damasceno/studyIA.git
+git clone https://github.com/Kelson-Damasceno/studyIA.git
 ```
 2. Acesse a pasta backend:
 ```bash
